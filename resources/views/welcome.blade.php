@@ -48,7 +48,7 @@
     "areaServed": "Sri Lanka",
     "priceRange": "$$",
     "sameAs": [
-        "https://www.facebook.com/share/p/1cQgQkD64y/?mibextid=wwXIfr"
+        "https://www.facebook.com/share/1d42XyPZXX/"
     ],
     "makesOffer": [
         { "@@type": "Offer", "itemOffered": { "@@type": "Service", "name": "Web Application Development" } },
@@ -527,7 +527,8 @@
       </div>
     </div>
 
-    <form id="contactForm" class="glass rounded-2xl p-7 sm:p-9 space-y-5" novalidate>
+    <form id="contactForm" action="{{ route('contact.store') }}" method="POST" class="glass rounded-2xl p-7 sm:p-9 space-y-5" novalidate>
+      @csrf
       <div class="grid sm:grid-cols-2 gap-5">
         <div>
           <label for="name" class="text-xs text-mist mono-label">Name</label>
@@ -592,17 +593,11 @@
     </nav>
 
     <div class="flex items-center gap-3">
-      <a href="https://www.facebook.com/share/p/1cQgQkD64y/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="w-9 h-9 rounded-full glass flex items-center justify-center hover:border-cyan/50 transition-colors">
+      <a href="https://www.facebook.com/share/1d42XyPZXX/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="w-9 h-9 rounded-full glass flex items-center justify-center hover:border-cyan/50 transition-colors">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="#E9F0FB"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5 3.66 9.15 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.91h-2.34V22c4.78-.79 8.44-4.94 8.44-9.94z"/></svg>
       </a>
       <a href="#" aria-label="LinkedIn" class="w-9 h-9 rounded-full glass flex items-center justify-center hover:border-cyan/50 transition-colors">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="#E9F0FB"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21H17.6v-5.6c0-1.34-.02-3.06-1.86-3.06-1.87 0-2.16 1.46-2.16 2.96V21H9z"/></svg>
-      </a>
-      <a href="#" aria-label="Twitter / X" class="w-9 h-9 rounded-full glass flex items-center justify-center hover:border-cyan/50 transition-colors">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="#E9F0FB"><path d="M18.9 2H22l-7.6 8.7L23.3 22h-7l-5.5-6.7L4.4 22H1.3l8.2-9.4L1 2h7.2l5 6.1L18.9 2zm-1.2 18h1.7L7.4 4h-1.8l12.1 16z"/></svg>
-      </a>
-      <a href="#" aria-label="GitHub" class="w-9 h-9 rounded-full glass flex items-center justify-center hover:border-cyan/50 transition-colors">
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="#E9F0FB"><path d="M12 .5a12 12 0 00-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.4-1.3-5.4-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.4 11.4 0 016 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0012 .5z"/></svg>
       </a>
     </div>
   </div>
