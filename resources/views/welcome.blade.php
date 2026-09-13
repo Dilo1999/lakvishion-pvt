@@ -3,10 +3,11 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Lakvion Technologies — Building Ideas. Powering Tomorrow.</title>
-<meta name="description" content="Lakvion Technologies is a Sri Lanka based software development company building web, mobile, and custom digital solutions." />
-<meta name="keywords" content="Lakvion Technologies, software development company Sri Lanka, web application development, mobile app development, custom software development, IT company Sri Lanka" />
-<meta name="robots" content="index, follow" />
+<title>Lakvion Technologies | Software Development Company in Sri Lanka</title>
+<meta name="description" content="Lakvion Technologies is a Sri Lanka based software development company delivering web, mobile, and custom software solutions, UI/UX design, and IT support." />
+<meta name="keywords" content="Lakvion Technologies, software development company Sri Lanka, web application development, mobile app development, custom software development, UI/UX design Sri Lanka, IT company Sri Lanka" />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+<meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 <meta name="author" content="Lakvion Technologies" />
 <meta name="theme-color" content="#060B18" />
 <link rel="canonical" href="https://lakviontechnologies.jo3.org/" />
@@ -15,16 +16,20 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://lakviontechnologies.jo3.org/" />
 <meta property="og:site_name" content="Lakvion Technologies" />
-<meta property="og:title" content="Lakvion Technologies — Building Ideas. Powering Tomorrow." />
-<meta property="og:description" content="Lakvion Technologies is a Sri Lanka based software development company building web, mobile, and custom digital solutions." />
+<meta property="og:title" content="Lakvion Technologies | Software Development Company in Sri Lanka" />
+<meta property="og:description" content="Lakvion Technologies is a Sri Lanka based software development company delivering web, mobile, and custom software solutions, UI/UX design, and IT support." />
 <meta property="og:image" content="{{ asset('image/logo/logo.png') }}" />
+<meta property="og:image:width" content="2146" />
+<meta property="og:image:height" content="733" />
+<meta property="og:image:alt" content="Lakvion Technologies logo" />
 <meta property="og:locale" content="en_US" />
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Lakvion Technologies — Building Ideas. Powering Tomorrow." />
-<meta name="twitter:description" content="Lakvion Technologies is a Sri Lanka based software development company building web, mobile, and custom digital solutions." />
+<meta name="twitter:title" content="Lakvion Technologies | Software Development Company in Sri Lanka" />
+<meta name="twitter:description" content="Lakvion Technologies is a Sri Lanka based software development company delivering web, mobile, and custom software solutions, UI/UX design, and IT support." />
 <meta name="twitter:image" content="{{ asset('image/logo/logo.png') }}" />
+<meta name="twitter:image:alt" content="Lakvion Technologies logo" />
 
 <link rel="icon" type="image/png" href="{{ asset('image/favicon/favicon.png') }}" />
 <link rel="apple-touch-icon" href="{{ asset('image/favicon/favicon.png') }}" />
@@ -38,7 +43,7 @@
     "url": "https://lakviontechnologies.jo3.org/",
     "logo": "{{ asset('image/logo/logo.png') }}",
     "image": "{{ asset('image/logo/logo.png') }}",
-    "description": "Lakvion Technologies is a Sri Lanka based software development company building web, mobile, and custom digital solutions.",
+    "description": "Lakvion Technologies is a Sri Lanka based software development company delivering web, mobile, and custom software solutions, UI/UX design, and IT support.",
     "email": "lakviontechnologies@gmail.com",
     "telephone": "+94787595375",
     "address": {
