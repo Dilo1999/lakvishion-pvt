@@ -5,7 +5,58 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Lakvion Technologies — Building Ideas. Powering Tomorrow.</title>
 <meta name="description" content="Lakvion Technologies is a Sri Lanka based software development company building web, mobile, and custom digital solutions." />
+<meta name="keywords" content="Lakvion Technologies, software development company Sri Lanka, web application development, mobile app development, custom software development, IT company Sri Lanka" />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="Lakvion Technologies" />
+<meta name="theme-color" content="#060B18" />
+<link rel="canonical" href="https://www.lakviontechnologies.com/" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.lakviontechnologies.com/" />
+<meta property="og:site_name" content="Lakvion Technologies" />
+<meta property="og:title" content="Lakvion Technologies — Building Ideas. Powering Tomorrow." />
+<meta property="og:description" content="Lakvion Technologies is a Sri Lanka based software development company building web, mobile, and custom digital solutions." />
+<meta property="og:image" content="{{ asset('image/logo/logo.png') }}" />
+<meta property="og:locale" content="en_US" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Lakvion Technologies — Building Ideas. Powering Tomorrow." />
+<meta name="twitter:description" content="Lakvion Technologies is a Sri Lanka based software development company building web, mobile, and custom digital solutions." />
+<meta name="twitter:image" content="{{ asset('image/logo/logo.png') }}" />
+
 <link rel="icon" type="image/png" href="{{ asset('image/favicon/favicon.png') }}" />
+<link rel="apple-touch-icon" href="{{ asset('image/favicon/favicon.png') }}" />
+
+<script type="application/ld+json">
+{
+    "@@context": "https://schema.org",
+    "@@type": "ProfessionalService",
+    "name": "Lakvion Technologies",
+    "url": "https://www.lakviontechnologies.com/",
+    "logo": "{{ asset('image/logo/logo.png') }}",
+    "image": "{{ asset('image/logo/logo.png') }}",
+    "description": "Lakvion Technologies is a Sri Lanka based software development company building web, mobile, and custom digital solutions.",
+    "email": "info@lakviontechnologies.com",
+    "address": {
+        "@@type": "PostalAddress",
+        "addressCountry": "LK"
+    },
+    "areaServed": "Sri Lanka",
+    "priceRange": "$$",
+    "makesOffer": [
+        { "@@type": "Offer", "itemOffered": { "@@type": "Service", "name": "Web Application Development" } },
+        { "@@type": "Offer", "itemOffered": { "@@type": "Service", "name": "Custom Software Development" } },
+        { "@@type": "Offer", "itemOffered": { "@@type": "Service", "name": "Mobile Application Development" } },
+        { "@@type": "Offer", "itemOffered": { "@@type": "Service", "name": "Backend & API Development" } },
+        { "@@type": "Offer", "itemOffered": { "@@type": "Service", "name": "UI/UX Design" } },
+        { "@@type": "Offer", "itemOffered": { "@@type": "Service", "name": "E-commerce Solutions" } },
+        { "@@type": "Offer", "itemOffered": { "@@type": "Service", "name": "Software Maintenance & Support" } }
+    ]
+}
+</script>
+
 @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="antialiased">
@@ -22,7 +73,7 @@
   <div class="mx-auto max-w-7xl px-6 lg:px-10">
     <div class="mt-4 flex items-center justify-between rounded-2xl glass px-5 py-3.5">
       <a href="#top" class="flex items-center rounded-lg bg-paper px-3 py-1.5">
-        <img src="{{ asset('image/logo/logo.png') }}" alt="Lakvion Technologies" class="h-7 w-auto" />
+        <img src="{{ asset('image/logo/logo.png') }}" alt="Lakvion Technologies" width="2146" height="733" class="h-7 w-auto" />
       </a>
 
       <nav class="hidden md:flex items-center gap-8 font-body text-sm text-mist">
@@ -512,7 +563,7 @@
 
     <div>
       <div class="inline-flex items-center rounded-lg bg-paper px-3 py-1.5">
-        <img src="{{ asset('image/logo/logo.png') }}" alt="Lakvion Technologies" class="h-8 w-auto" />
+        <img src="{{ asset('image/logo/logo.png') }}" alt="Lakvion Technologies" width="2146" height="733" loading="lazy" class="h-8 w-auto" />
       </div>
       <p class="text-sm text-mist mt-3 max-w-xs">Building Ideas. Powering Tomorrow.</p>
     </div>
