@@ -86,6 +86,7 @@
         <a href="#services" class="nav-link hover:text-paper transition-colors">Services</a>
         <a href="#about" class="nav-link hover:text-paper transition-colors">About</a>
         <a href="#portfolio" class="nav-link hover:text-paper transition-colors">Portfolio</a>
+        <a href="#careers" class="nav-link hover:text-paper transition-colors">Careers</a>
         <a href="#contact" class="nav-link hover:text-paper transition-colors">Contact</a>
       </nav>
 
@@ -105,6 +106,7 @@
       <a href="#services" class="mobile-link hover:text-paper">Services</a>
       <a href="#about" class="mobile-link hover:text-paper">About</a>
       <a href="#portfolio" class="mobile-link hover:text-paper">Portfolio</a>
+      <a href="#careers" class="mobile-link hover:text-paper">Careers</a>
       <a href="#contact" class="mobile-link hover:text-paper">Contact</a>
       <a href="#contact" class="mobile-link btn-primary text-center font-display font-semibold px-5 py-2.5 rounded-full !text-[#051019]">Get a Quote</a>
     </div>
@@ -476,6 +478,44 @@
   </div>
 </section>
 
+<!-- ============ CAREERS ============ -->
+<section id="careers" class="relative py-24 px-6 lg:px-10 border-t border-line">
+  <div class="mx-auto max-w-7xl">
+    <div class="max-w-xl mb-14">
+      <h2 class="font-display text-3xl sm:text-4xl font-semibold text-paper leading-tight">Careers at Lakvion</h2>
+      <p class="mt-4 text-mist text-base sm:text-lg">We're always looking for driven people who want to build things that matter.</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-8">
+      <div class="glass card-hover rounded-2xl p-7">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#26E5D0" stroke-width="1.5"><path d="M2 12h4l3 9 4-18 3 9h6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <h3 class="font-display text-lg font-semibold text-paper mt-5">Remote-Friendly</h3>
+        <p class="text-sm text-mist mt-2.5 leading-relaxed">Work from anywhere in Sri Lanka, with flexible hours built around real output.</p>
+      </div>
+
+      <div class="glass card-hover rounded-2xl p-7">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#26E5D0" stroke-width="1.5"><path d="M3 3v18h18" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 15l4-5 3 3 5-7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <h3 class="font-display text-lg font-semibold text-paper mt-5">Room to Grow</h3>
+        <p class="text-sm text-mist mt-2.5 leading-relaxed">Hands-on projects from day one, with mentorship and a clear path to take on more.</p>
+      </div>
+
+      <div class="glass card-hover rounded-2xl p-7 sm:col-span-2 lg:col-span-1">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#26E5D0" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <h3 class="font-display text-lg font-semibold text-paper mt-5">Real Ownership</h3>
+        <p class="text-sm text-mist mt-2.5 leading-relaxed">Small teams, direct client contact, and work that actually ships to production.</p>
+      </div>
+    </div>
+
+    <div class="glass rounded-2xl p-8 sm:p-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+      <div>
+        <h3 class="font-display text-xl font-semibold text-paper">Don't see an open role?</h3>
+        <p class="text-sm text-mist mt-2 max-w-md">Send us your CV and a bit about what you'd like to work on — we review every submission.</p>
+      </div>
+      <a href="mailto:lakviontechnologies@gmail.com?subject=Career%20Application" class="btn-primary font-display font-semibold px-7 py-3.5 rounded-full text-sm whitespace-nowrap">Send Your CV</a>
+    </div>
+  </div>
+</section>
+
 <!-- ============ CONTACT ============ -->
 <section id="contact" class="relative py-24 px-6 lg:px-10 border-t border-line">
   <div class="mx-auto max-w-7xl grid lg:grid-cols-[0.8fr_1.2fr] gap-14">
@@ -589,6 +629,7 @@
       <a href="#services" class="hover:text-paper transition-colors">Services</a>
       <a href="#about" class="hover:text-paper transition-colors">About</a>
       <a href="#portfolio" class="hover:text-paper transition-colors">Portfolio</a>
+      <a href="#careers" class="hover:text-paper transition-colors">Careers</a>
       <a href="#contact" class="hover:text-paper transition-colors">Contact</a>
     </nav>
 
