@@ -9,11 +9,11 @@
 <meta name="robots" content="index, follow" />
 <meta name="author" content="Lakvion Technologies" />
 <meta name="theme-color" content="#060B18" />
-<link rel="canonical" href="https://www.lakviontechnologies.com/" />
+<link rel="canonical" href="https://lakviontechnologies.jo3.org/" />
 
 <!-- Open Graph -->
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.lakviontechnologies.com/" />
+<meta property="og:url" content="https://lakviontechnologies.jo3.org/" />
 <meta property="og:site_name" content="Lakvion Technologies" />
 <meta property="og:title" content="Lakvion Technologies — Building Ideas. Powering Tomorrow." />
 <meta property="og:description" content="Lakvion Technologies is a Sri Lanka based software development company building web, mobile, and custom digital solutions." />
@@ -34,17 +34,22 @@
     "@@context": "https://schema.org",
     "@@type": "ProfessionalService",
     "name": "Lakvion Technologies",
-    "url": "https://www.lakviontechnologies.com/",
+    "alternateName": "Lakvion",
+    "url": "https://lakviontechnologies.jo3.org/",
     "logo": "{{ asset('image/logo/logo.png') }}",
     "image": "{{ asset('image/logo/logo.png') }}",
     "description": "Lakvion Technologies is a Sri Lanka based software development company building web, mobile, and custom digital solutions.",
-    "email": "info@lakviontechnologies.com",
+    "email": "lakviontechnologies@gmail.com",
+    "telephone": "+94787595375",
     "address": {
         "@@type": "PostalAddress",
         "addressCountry": "LK"
     },
     "areaServed": "Sri Lanka",
     "priceRange": "$$",
+    "sameAs": [
+        "https://www.facebook.com/share/p/1cQgQkD64y/?mibextid=wwXIfr"
+    ],
     "makesOffer": [
         { "@@type": "Offer", "itemOffered": { "@@type": "Service", "name": "Web Application Development" } },
         { "@@type": "Offer", "itemOffered": { "@@type": "Service", "name": "Custom Software Development" } },
@@ -117,9 +122,9 @@
       </div>
 
       <h1 class="font-display text-[2.6rem] leading-[1.08] sm:text-6xl lg:text-[3.4rem] font-semibold tracking-tight text-paper glow-text">
-        Building Ideas.
+        Lakvion Technologies
         <br/>
-        <span class="bg-gradient-to-r from-cyan to-blue bg-clip-text text-transparent">Powering Tomorrow.</span>
+        <span class="bg-gradient-to-r from-cyan to-blue bg-clip-text text-transparent">Building Ideas. Powering Tomorrow.</span>
       </h1>
 
       <p class="mt-7 max-w-lg text-base sm:text-lg text-mist leading-relaxed">
@@ -486,7 +491,17 @@
           </div>
           <div>
             <p class="text-xs text-mist mono-label">Email</p>
-            <a href="mailto:info@lakviontechnologies.com" class="text-paper hover:text-cyan transition-colors">info@lakviontechnologies.com</a>
+            <a href="mailto:lakviontechnologies@gmail.com" class="text-paper hover:text-cyan transition-colors">lakviontechnologies@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4">
+          <div class="w-10 h-10 rounded-full glass flex items-center justify-center shrink-0">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#26E5D0" stroke-width="1.6"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.9.34 1.85.57 2.81.7a2 2 0 011.72 2.03z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div>
+            <p class="text-xs text-mist mono-label">Phone</p>
+            <a href="tel:+94787595375" class="text-paper hover:text-cyan transition-colors">+94 78 759 5375</a>
           </div>
         </div>
 
@@ -496,7 +511,7 @@
           </div>
           <div>
             <p class="text-xs text-mist mono-label">Website</p>
-            <a href="https://www.lakviontechnologies.com" class="text-paper hover:text-cyan transition-colors">www.lakviontechnologies.com</a>
+            <a href="https://lakviontechnologies.jo3.org" class="text-paper hover:text-cyan transition-colors">lakviontechnologies.jo3.org</a>
           </div>
         </div>
 
@@ -577,6 +592,9 @@
     </nav>
 
     <div class="flex items-center gap-3">
+      <a href="https://www.facebook.com/share/p/1cQgQkD64y/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="w-9 h-9 rounded-full glass flex items-center justify-center hover:border-cyan/50 transition-colors">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="#E9F0FB"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5 3.66 9.15 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.91h-2.34V22c4.78-.79 8.44-4.94 8.44-9.94z"/></svg>
+      </a>
       <a href="#" aria-label="LinkedIn" class="w-9 h-9 rounded-full glass flex items-center justify-center hover:border-cyan/50 transition-colors">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="#E9F0FB"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21H17.6v-5.6c0-1.34-.02-3.06-1.86-3.06-1.87 0-2.16 1.46-2.16 2.96V21H9z"/></svg>
       </a>
